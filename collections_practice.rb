@@ -26,3 +26,6 @@ def kesha_maker(array)
   kesha_array.collect { |array| array[2] = "$"}
   kesha_array
 end
+
+def find_a(array)
+  array.find {|string| string.start_with?("a") }
