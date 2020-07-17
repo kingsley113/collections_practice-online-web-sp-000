@@ -24,3 +24,4 @@ end
 def kesha_maker(array)
   kesha_array = array.collect { |array| array[2] = "$"}
   kesha_array
+end
