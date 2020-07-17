@@ -8,9 +8,10 @@ end
 
 def sort_array_char_count (array)
   #array_char_length = array.length
-  #array.sort { |a,b| a.length <=> b.length }
-  array[1], array[2] = array[2], array[1]
+  array.sort { |a,b| a.length <=> b.length }
 end
 
 def swap_elements (array)
   array.sort { |a,b| }
+array[1], array[2] = array[2], array[1]
+end
